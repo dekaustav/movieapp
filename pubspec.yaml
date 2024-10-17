@@ -1,0 +1,20 @@
+name:  movie_app
+
+description: A new Flutter project.
+
+environment:
+  sdk: ">=2.17.0 <3.0.0" # Change this based on your Dart SDK version.
+  flutter: ">=3.19.1"     # Flutter SDK version.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.0.14
+  cupertino_icons: ^1.0.2
+  flutter_firebase_chat_core: ^1.6.8
+  tmdb_api: ^2.2.0       # Add this dependency here
+  google_fonts: ^4.0.5   # Ensure correct alignment here
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
