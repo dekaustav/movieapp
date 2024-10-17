@@ -1,0 +1,20 @@
+
+// Project-level build.gradle (android/build.gradle)
+buildscript {
+    repositories {
+        google() // Required for Android Gradle plugin and Google services
+        mavenCentral() // Maven Central for dependencies
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.3.0' // or use 8.1.0 if necessary
+
+        classpath 'com.google.gms:google-services:4.4.2' // Firebase services
+    }
+}
+
+allprojects {
+    repositories {
+        google() // Required for Android dependencies
+        mavenCentral() // Central repository for third-party libraries
+    }
+}
